@@ -1,4 +1,0 @@
-babelscedastic
-==============
-
-My New Blog
