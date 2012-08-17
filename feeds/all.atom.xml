@@ -6,7 +6,9 @@
 &lt;blockquote&gt;
 &lt;p&gt;All work and no play makes Jack a dull boy.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;:::python
-from sklearn import svm
-clf = svm.SVC(gamma=0.001, C=100.)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;sklearn&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;svm&lt;/span&gt;
+&lt;span class="n"&gt;clf&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;svm&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;SVC&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;gamma&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.001&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;C&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;100.&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;And some extra stuff for the hell of it.&lt;/p&gt;</summary><category term="code"></category></entry><entry><title>My second test post using Pelican</title><link href="/my-second-test-post-using-pelican.html" rel="alternate"></link><updated>2012-08-16T00:00:00Z</updated><author><name>David Kim</name></author><id>tag:,2012-08-16:my-second-test-post-using-pelican.html</id><summary type="html">&lt;p&gt;This is my second post testing Pelican with gh-pages. Double yay.&lt;/p&gt;</summary><category term="general"></category></entry><entry><title>My First GitHub Post</title><link href="/my-first-github-post.html" rel="alternate"></link><updated>2012-08-10T00:00:00Z</updated><author><name>David Kim</name></author><id>tag:,2012-08-10:my-first-github-post.html</id><summary type="html">&lt;p&gt;This is my first post using Github and Pelican. Yay.&lt;/p&gt;</summary><category term="general"></category></entry></feed>
