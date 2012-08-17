@@ -10,10 +10,8 @@ So here's yet another blog post test with a block quote and a code block.
 
 > All work and no play makes Jack a dull boy.
 
-:::python
-from sklearn import svm
-clf = svm.SVC(gamma=0.001, C=100.)
+    :::python
+    from sklearn import svm
+    clf = svm.SVC(gamma=0.001, C=100.)
 
-
-
-
+And some extra stuff for the hell of it.
