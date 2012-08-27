@@ -5,7 +5,7 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
         
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Babelscedastic Atom Feed" />
+        <link href="http://davidjk.github.com/babelscedastic/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Babelscedastic Atom Feed" />
         
         
 
@@ -33,7 +33,7 @@
                 
                     <li class="active"><a href="./category/python.html">Python</a></li>
                 
-                    <li ><a href="./category/misc.html">misc</a></li>
+                    <li ><a href="./category/content.html">content</a></li>
                 
                 </ul></nav>
         </header><!-- /#banner -->
@@ -78,6 +78,19 @@
 <p>And some extra stuff for the hell of it.</p>
     </div><!-- /.entry-content -->
     
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_identifier = "code-highlighting.html";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://babelscedastic.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </div>
+    
 
   </article>
 </section>
@@ -88,13 +101,15 @@
                         <h2>blogroll</h2>
                         <ul>
                         
+                            <li><a href="http://www.enthought.com">Enthought</a></li>
+                        
+                            <li><a href="http://www.scipy.org">Numpy/Scipy</a></li>
+                        
                             <li><a href="http://docs.notmyidea.org/alexis/pelican/">Pelican</a></li>
                         
                             <li><a href="http://python.org">Python.org</a></li>
                         
                             <li><a href="http://jinja.pocoo.org">Jinja2</a></li>
-                        
-                            <li><a href="http://www.enthought.com">Enthought</a></li>
                         
                         </ul>
                 </div><!-- /.blogroll -->
@@ -112,6 +127,16 @@
 
 
 
+
+<script type="text/javascript">
+    var disqus_shortname = 'babelscedastic';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
 
 </body>
 </html>
